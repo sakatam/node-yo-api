@@ -1,0 +1,30 @@
+{
+  "name": "yo-api",
+  "version": "0.0.0",
+  "description": "freakin' simple node wrapper for yo api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee --compile index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sakatam/node-yo-api.git"
+  },
+  "keywords": [
+    "yo",
+    "yo-api"
+  ],
+  "author": "sakatam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakatam/node-yo-api/issues"
+  },
+  "homepage": "https://github.com/sakatam/node-yo-api",
+  "dependencies": {
+    "request": "^2.36.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  }
+}
