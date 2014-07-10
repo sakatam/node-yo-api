@@ -17,6 +17,8 @@ Yo = require "yo-api"
 yo = new Yo "your-yo-api-token"
 yo.yoall (err, res, body) ->
   # do whatever..
+yo.yo "WORLDCUP" (err, res, body) ->
+  # do something else..
 ```
 
 get involved
