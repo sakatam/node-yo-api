@@ -16,7 +16,7 @@ class Yo
     null
 
   subscribers_count: (cb) ->
-    request { method: "GET", url: "#{@base}/subscribers_count/", qs: { api_token: @token } }, cb
+    request.get "#{@base}/subscribers_count/", qs: { api_token: @token }, cb
     null
 
 module.exports = Yo
