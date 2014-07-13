@@ -19,6 +19,8 @@ yo.yoall (err, res, body) ->
   # do whatever..
 yo.yo "WORLDCUP", (err, res, body) ->
   # do something else..
+yo.subscribers_count (err, res, body) ->
+  # do something with count...
 ```
 
 get involved

@@ -15,4 +15,8 @@ class Yo
     request.post "#{@base}/yo/", form: { username: username, api_token: @token }, cb
     null
 
+  subscribers_count: (cb) ->
+    request.get "#{@base}/subscribers_count/", qs: { api_token: @token }, cb
+    null
+
 module.exports = Yo
