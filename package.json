@@ -16,6 +16,7 @@
     "yo-api"
   ],
   "author": "sakatam",
+  "contributors": ["pskupinski"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sakatam/node-yo-api/issues"
