@@ -15,10 +15,14 @@ in your code:
 ```coffee
 Yo = require "yo-api"
 yo = new Yo "your-yo-api-token"
-yo.yoall (err, res, body) ->
-  # do whatever..
+yo.yo_all (err, res, body) ->
+  # do whatever...
+yo.yo_all_link (err, res, body) ->
+  # do whatever with a link...
 yo.yo "WORLDCUP", (err, res, body) ->
-  # do something else..
+  # do something else...
+yo.yo_link "WORLDCUP", (err, res, body) ->
+  # do something else with a link...
 yo.subscribers_count (err, res, body) ->
   # do something with count...
 ```
