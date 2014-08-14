@@ -7,12 +7,20 @@ class Yo
     {@base} = opts
     @base or= "http://api.justyo.co"
 
-  yoall: (cb) ->
+  yo_all: (cb) ->
     request.post "#{@base}/yoall/", form: { api_token: @token }, cb
     null
 
+  yo_all_link: (link, cb) ->
+    request.post "#{@base}/yoall/", form: { api_token: @token, link: link }, cb
+    null
+
   yo: (username, cb) ->
-    request.post "#{@base}/yo/", form: { username: username, api_token: @token }, cb
+    request.post "#{@base}/yo/", form: { username: username, api_token: @token}, cb
+    null
+
+  yo_link: (username, link, cb) ->
+    request.post "#{@base}/yo/", form: { username: username, api_token: @token, link: link}, cb
     null
 
   subscribers_count: (cb) ->
