@@ -1,6 +1,6 @@
 {
   "name": "yo-api",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "freakin' simple node wrapper for yo api",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "yo-api"
   ],
   "author": "sakatam",
-  "contributors": ["pskupinski"],
+  "contributors": [
+    "pskupinski"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sakatam/node-yo-api/issues"
