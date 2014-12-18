@@ -1,6 +1,6 @@
 {
   "name": "yo-api",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "freakin' simple node wrapper for yo api",
   "main": "index.js",
   "scripts": {
