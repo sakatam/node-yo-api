@@ -23,6 +23,10 @@ class Yo
     request.post "#{@base}/yo/", form: { username: username, api_token: @token, link: link}, cb
     null
 
+  yo_location: (username, lat, long, cb) ->
+    request.post "#{@base}/yo/", form: { username: username, api_token: @token, location: "#{long},#{lat}"}, cb
+    null
+
   subscribers_count: (cb) ->
     request.get "#{@base}/subscribers_count/", qs: { api_token: @token }, cb
     null
